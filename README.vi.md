@@ -1,6 +1,6 @@
 # Công Cụ Tạo Ví Blockchain
 
-Tiếng Việt | [English](README.md)
+[English](README.md) | Tiếng Việt | [中文](README.zh.md)
 
 Một công cụ Node.js đơn giản để tạo ví Ethereum trên mạng chính và lưu trữ chúng một cách an toàn.
 
@@ -60,36 +60,3 @@ Chứa thông tin đầy đủ cho mỗi lần thử:
 ### 2. Log Chỉ Địa Chỉ (`wallet_addresses_[thời_gian].txt`)
 Một tệp văn bản đơn giản với một địa chỉ trên mỗi dòng để dễ theo dõi:
 ```
-0x1234...
-0x5678...
-0x9abc...
-```
-
-- Đầu ra console hiển thị tiến trình sau mỗi 100 lần thử
-- Cả hai loại log đều được lưu trong thư mục `logs`
-- Mỗi phiên tạo tạo ra các tệp log mới với thời gian
-
-⚠️ **QUAN TRỌNG**: 
-- Các tệp ví được lưu trong thư mục `wallets`
-- Giữ các tệp ví an toàn và không bao giờ chia sẻ chúng với bất kỳ ai
-- Cân nhắc mã hóa các tệp ví để tăng cường bảo mật
-- Lưu trữ bản sao lưu của các tệp ví ở vị trí an toàn
-- Cân nhắc sử dụng ví phần cứng cho số tiền lớn
-- Tìm kiếm chuỗi cụ thể trong địa chỉ có thể mất nhiều thời gian hơn tùy thuộc vào chuỗi
-- Các tệp log chứa khóa riêng tư - hãy giữ chúng an toàn!
-
-## Lưu Ý Bảo Mật
-
-- Công cụ này tạo ví cục bộ trên máy của bạn
-- Khóa riêng tư được lưu trong các tệp JSON trong thư mục `wallets`
-- Các tệp ví không bao giờ được truyền qua mạng
-- Luôn xác minh bạn đang sử dụng kết nối an toàn khi sử dụng ví đã tạo
-- Cân nhắc sử dụng ví phần cứng để tăng cường bảo mật
-- Các tệp log chứa thông tin nhạy cảm - xử lý cẩn thận!
-
-## Phát Triển
-
-Để chạy kiểm thử:
-```bash
-npm test
-``` 
