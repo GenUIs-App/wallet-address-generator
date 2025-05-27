@@ -1,5 +1,7 @@
 # Blockchain Wallet Creation Tool
 
+[Tiếng Việt](README.vi.md) | English
+
 A simple Node.js tool to create Ethereum wallets on mainnet and store them securely.
 
 ## Prerequisites
