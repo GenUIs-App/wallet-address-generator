@@ -39,7 +39,6 @@ async function createWallet(desiredString = '') {
                 address: wallet.address,
                 privateKey: wallet.privateKey,
                 timestamp: new Date().toISOString(),
-                containsDesiredString: desiredString ? wallet.address.toLowerCase().includes(desiredString.toLowerCase()) : null
             };
             
             // Append to detailed log file
